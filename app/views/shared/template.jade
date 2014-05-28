@@ -5,9 +5,19 @@ html
     title= title
     link(href='/css/normalize.css', rel='stylesheet')
     link(href='/css/buttons.css', rel='stylesheet')
+    link(href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet')
     link(href='/less/app.css', rel='stylesheet')
-  body
-    block content
+  body(style='background-image:url(/img/#{bg});')
+
+    #nav
+      span
+        a(href='/tasks') Tasks
+      span
+        a(href='/priorities') Priorities
+
+
+    .container
+      block content
 
     script(src='/js/vendor/jquery-2.1.1.js')
     script(src='/js/vendor/lodash-2.4.1.js')
