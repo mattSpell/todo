@@ -1,5 +1,7 @@
-Server Template
+Todo
 ===============
+
+This is a basic todo app that uses:
 
 - Node.js
 - Express
@@ -7,3 +9,4 @@ Server Template
 - Traceur
 - Jade
 - Less
+- jQuery
